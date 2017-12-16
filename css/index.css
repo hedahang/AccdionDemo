@@ -1,0 +1,195 @@
+.box{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+
+}
+.lf{
+	float: left;
+}
+.rt{
+	float: right;
+}
+ul li {
+    list-style: none;
+}
+#slider{
+	position: relative;
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+}
+#slider .slide {
+    position: absolute;
+    top: 0px;
+    height: 600px;
+    width: 1200px;
+    background: #fff;
+    overflow: hidden;
+    cursor: default;
+}
+#slider .slide .imgOne{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 170px;
+	height: 600px;
+}
+#slider .slide .pop{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 170px;
+	height: 150px;
+
+}
+#slider .slide .pop b{
+	display: block;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFF;
+	font-size: 18px;
+
+}
+#slider .slide .pop i{
+	display: block;
+	width: 3px;
+	height: 30px;
+	background-color: #FFF;
+	margin:5px auto;
+	border-radius: 1.5px;
+}
+#slider .slide .pop .popBtn{
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	overflow:hidden;
+	background: url("../image/arrow.png") no-repeat 0 0;
+	background-size: cover;
+	margin: 10px auto;
+}
+#slider .slide .content{
+	position: absolute;
+	left: 170px;
+	top: 0;
+	width: 1030px;
+	height: 600px;
+	background: url("../image/bgI.jpg") no-repeat center top;
+	padding-top:42px;
+
+}
+#slider .slide .content h2{
+	width:900px;
+	font-size:22px;
+	color:#333333;
+	text-align:left;
+	margin-left:35px;
+	opacity:0.8;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+#slider .slide .content .lf .courseBox{
+	clear: both;
+	overflow: hidden;
+}
+.line{
+	width: 2px;
+	height: 34px;
+	background:#E4393c;
+	margin-left:6px;
+	margin-bottom:3px;
+	margin-top:3px;
+}
+#slider .slide .content .lf .courseBox .marker{
+	float: left;
+	margin-right:9px;
+	margin-left:32px;
+}
+#slider .slide .content .lf .courseBox .marker b.imgIcon{
+	display: block;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #E4393c;
+	border-radius: 100%;
+	position: relative;
+}
+#slider .slide .content .rt{
+	width:590px;
+}
+#slider .slide .content .lf .cur .marker b.imgIcon:before{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 5px;
+	height: 5px;
+	background-color: #E4393C;
+	border-radius: 100%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+#slider .slide .content .lf .cur .course{
+	color:#930713!important;
+	font-size:18px!important;
+}        
+#slider .slide .content .lf .courseBox p{
+	cursor: pointer;
+	width: 315px!important;
+	text-indent:0;
+	float: left;
+	margin-top:-3px;
+	font-size:14px;
+	color: #333333;
+	opacity:0.8;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}                 
+#slider .slide .content .rt .showBox{
+	display:none;
+}
+#slider .slide .content .rt .showList{
+	margin-top:6px;
+}
+#slider .slide .content .rt .showList li{
+	text-align: left;
+	clear: both;
+	height:38px;
+	line-height:38px;
+}
+#slider .slide .content .rt .showList li:before{
+	content: "";
+	float: left;
+	width: 5px;
+	height: 5px;
+	background-color: orange;
+	margin-top: 16px;
+    margin-right: 14px;
+    margin-left: 39px;
+    border-radius: 100%;
+}
+#slider .slide .content .rt .showList li a{
+	float: left;
+	font-size:16px;
+	color:#666666;
+}
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
